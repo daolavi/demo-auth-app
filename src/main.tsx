@@ -14,7 +14,7 @@ createRoot(document.getElementById('root')!).render(
       domain={authDomain}
       clientId={clientId}
       authorizationParams={{
-        redirect_uri: window.location.href
+        redirect_uri: window.location.origin
       }}
     >
       <BrowserRouter>
